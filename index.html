@@ -13,29 +13,28 @@
         gtag('config', 'G-BN3EZW89Y4');
     </script>
     <title>Monster Survivors - Epic Survival Adventure Game | Play Online</title>
-    <meta name="description" content="Play Monster Survivors online - an epic survival adventure where you battle hordes of monsters, level up your character, and survive in a dangerous world. Free to play!" />
-    <meta name="keywords" content="Monster Survivors, online game, survival game, action game, free game" />
+    <meta name="description" content="Play Monster Survivors and other exciting online games - featuring Monster Survivors, Rise Up, Giant Rush, Train Miner, and Western Sniper. Free to play!" />
+    <meta name="keywords" content="Monster Survivors, Rise Up, Giant Rush, Train Miner, Western Sniper, online games, free games" />
     <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="Monster Survivors - Epic Survival Adventure Game" />
-    <meta property="og:description" content="Play Monster Survivors online - an epic survival adventure where you battle hordes of monsters, level up your character, and survive in a dangerous world. Free to play!" />
+    <meta property="og:title" content="Monster Survivors and More Free Online Games" />
+    <meta property="og:description" content="Play Monster Survivors and other exciting online games - featuring Monster Survivors, Rise Up, Giant Rush, Train Miner, and Western Sniper. Free to play!" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.monstersurvivors.ink" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Monster Survivors - Epic Survival Adventure Game" />
-    <meta name="twitter:description" content="Play Monster Survivors online - battle monsters, level up, survive!" />
+    <meta name="twitter:title" content="Monster Survivors and More Free Online Games" />
+    <meta name="twitter:description" content="Play Monster Survivors and other exciting online games!" />
     <link rel="canonical" href="https://www.monstersurvivors.ink" />
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "VideoGame",
-      "name": "Monster Survivors",
-      "description": "An epic survival adventure where you battle endless waves of monsters",
-      "genre": ["Action", "Survival", "Adventure"],
+      "@type": "WebSite",
+      "name": "Monster Survivors Games",
+      "description": "Collection of free online games including Monster Survivors, Rise Up, Giant Rush, Train Miner, and Western Sniper",
       "url": "https://www.monstersurvivors.ink",
-      "inLanguage": "en",
-      "playMode": "SinglePlayer",
-      "applicationCategory": "Game",
-      "isAccessibleForFree": true
+      "potentialAction": {
+        "@type": "PlayAction",
+        "target": "https://www.monstersurvivors.ink/#games"
+      }
     }
     </script>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -50,29 +49,33 @@
             max-width: 100%;
             height: auto;
         }
+        .game-card {
+            transition: transform 0.2s;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+        }
     </style>
 </head>
 <body class="min-h-screen">
-    <header class="bg-white shadow-sm">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex justify-between items-center">
                 <h1 class="text-2xl font-bold text-gray-900">Monster Survivors</h1>
-                <a href="#play-now" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
-                    Play Now
-                </a>
+                <div class="flex gap-4">
+                    <a href="#featured-game" class="text-gray-600 hover:text-gray-900">Featured Game</a>
+                    <a href="#more-games" class="text-gray-600 hover:text-gray-900">More Games</a>
+                </div>
             </div>
         </nav>
     </header>
 
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <section class="text-center mb-12">
+        <section id="featured-game" class="text-center mb-12">
             <h2 class="text-4xl font-bold text-gray-900 mb-4">Survive the Monster Horde</h2>
-            <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
                 Embark on an epic survival adventure where you battle endless waves of monsters, unlock powerful abilities, and become the ultimate survivor.
             </p>
-        </section>
-
-        <section id="play-now" class="mb-12">
             <div class="bg-white rounded-xl shadow-lg p-4">
                 <div class="game-container mx-auto">
                     <iframe 
@@ -85,6 +88,71 @@
             </div>
         </section>
 
+        <section id="more-games" class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">More Free Games</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Rise Up -->
+                <div class="game-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <iframe src="https://play.famobi.com/rise-up" 
+                            class="w-full h-full"
+                            frameborder="0" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Rise Up</h3>
+                        <p class="text-gray-600">Guide your balloon through challenging obstacles!</p>
+                    </div>
+                </div>
+
+                <!-- Giant Rush -->
+                <div class="game-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <iframe src="https://play.famobi.com/giant-rush" 
+                            class="w-full h-full"
+                            frameborder="0" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Giant Rush</h3>
+                        <p class="text-gray-600">Grow into a giant and crush everything!</p>
+                    </div>
+                </div>
+
+                <!-- Train Miner -->
+                <div class="game-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <iframe src="https://play.famobi.com/train-miner" 
+                            class="w-full h-full"
+                            frameborder="0" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Train Miner</h3>
+                        <p class="text-gray-600">Mine resources and build your train empire!</p>
+                    </div>
+                </div>
+
+                <!-- Western Sniper -->
+                <div class="game-card bg-white rounded-xl shadow-lg overflow-hidden">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <iframe src="https://play.famobi.com/western-sniper" 
+                            class="w-full h-full"
+                            frameborder="0" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold mb-2">Western Sniper</h3>
+                        <p class="text-gray-600">Test your shooting skills in the Wild West!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="grid md:grid-cols-2 gap-8 mb-12">
             <div class="bg-white p-6 rounded-xl shadow-lg">
                 <h2 class="text-2xl font-bold text-gray-900 mb-4">Game Features</h2>
@@ -93,19 +161,19 @@
                         <svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        Dynamic Combat System
+                        Multiple Games Collection
                     </li>
                     <li class="flex items-center">
                         <svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        Character Progression
+                        Free to Play
                     </li>
                     <li class="flex items-center">
                         <svg class="w-5 h-5 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        Multiple Character Classes
+                        No Download Required
                     </li>
                 </ul>
             </div>
@@ -113,11 +181,11 @@
             <div class="bg-white p-6 rounded-xl shadow-lg">
                 <h2 class="text-2xl font-bold text-gray-900 mb-4">How to Play</h2>
                 <ol class="space-y-3 text-gray-600 list-decimal list-inside">
-                    <li>Choose your character class</li>
-                    <li>Survive waves of monster attacks</li>
-                    <li>Collect experience points to level up</li>
-                    <li>Unlock new abilities and power-ups</li>
-                    <li>Try to survive as long as possible</li>
+                    <li>Choose your favorite game</li>
+                    <li>Click to start playing instantly</li>
+                    <li>No registration needed</li>
+                    <li>Enjoy hours of fun</li>
+                    <li>Try different games</li>
                 </ol>
             </div>
         </section>
